@@ -1,0 +1,88 @@
+{
+  "final_frozen": true,
+  "generator": "stdlib-v1",
+  "manifest_sha256": "084902186b758f5747fc29d907911ad67e4dfca7076d4518c7dccb7fb7c94c34",
+  "n_per_split": 16,
+  "versions": {
+    "v1": {
+      "drift": "stable names and scalar arguments",
+      "splits": {
+        "dev": {
+          "path": "v1-dev.jsonl",
+          "rows": 16,
+          "sha256": "48f6b2b751d6df1b5683995b625b8ef32a80c3525550c8415343150748dd69d6"
+        },
+        "sealed-final": {
+          "path": "v1-sealed-final.jsonl",
+          "rows": 16,
+          "sha256": "be2eb1e6b27bffedd677b3b3b8b3ecb3fb7bae8e7f320ddd9404323a37d6830f"
+        },
+        "train": {
+          "path": "v1-train.jsonl",
+          "rows": 16,
+          "sha256": "bb79be62c520c508fbd1d59472d5d0858235022d748076bed7b493d1a6c23bc4"
+        }
+      }
+    },
+    "v2": {
+      "drift": "rename ticket_id to case_id; priority is integer; escalation needs reason",
+      "splits": {
+        "dev": {
+          "path": "v2-dev.jsonl",
+          "rows": 16,
+          "sha256": "02829a40297e1d6ddbe2b68106eb2d9dfb0e827500b29733e07dc493013e09fd"
+        },
+        "sealed-final": {
+          "path": "v2-sealed-final.jsonl",
+          "rows": 16,
+          "sha256": "f606e1cccd0daa8fca27a2d6788a013b58f87fd84e75f5ea466a193c2ba5961d"
+        },
+        "train": {
+          "path": "v2-train.jsonl",
+          "rows": 16,
+          "sha256": "31baae3cbe453f0a60eb357eddb2b1ce653b9e4ade057e265d582de73ce3fde8"
+        }
+      }
+    },
+    "v3a": {
+      "drift": "update_ticket split into patch_ticket and close_ticket",
+      "splits": {
+        "dev": {
+          "path": "v3a-dev.jsonl",
+          "rows": 16,
+          "sha256": "92a15c168ff698b90dcfed6571b892d271a2af3abb07bdc0911f452d9a0e95ea"
+        },
+        "sealed-final": {
+          "path": "v3a-sealed-final.jsonl",
+          "rows": 16,
+          "sha256": "3d1726d60d8b636e95810768bb1ce7667e88b5c45a3dd0e169cb777dc833f15d"
+        },
+        "train": {
+          "path": "v3a-train.jsonl",
+          "rows": 16,
+          "sha256": "e53438ef898896c22196eb33f9de291e268d842e33a18a89aca9aec90cdbbf4c"
+        }
+      }
+    },
+    "v3b": {
+      "drift": "search_kb requires lookup_ticket first; escalation requires approval flag",
+      "splits": {
+        "dev": {
+          "path": "v3b-dev.jsonl",
+          "rows": 16,
+          "sha256": "9bb84a819419fb3a150b5969863d86a0128127aeae80e50fe376d73a358bb7dd"
+        },
+        "sealed-final": {
+          "path": "v3b-sealed-final.jsonl",
+          "rows": 16,
+          "sha256": "dd2e31080d2d5b4fa37aca417cb200e9ea66144dd2a13e004b6cb1426b6707b2"
+        },
+        "train": {
+          "path": "v3b-train.jsonl",
+          "rows": 16,
+          "sha256": "20fa55623567d70683a258b687069a0080f18ceabf1d8d39fe0a687f514e185a"
+        }
+      }
+    }
+  }
+}

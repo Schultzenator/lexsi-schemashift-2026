@@ -1,0 +1,16 @@
+{"expected": {"ticket": "T-6171a992", "tool_family": "lookup_ticket"}, "id": "v3b-train-000", "input": "Resolve support request T-6171a992 using the available tools.", "split": "train", "version": "v3b"}
+{"expected": {"ticket": "T-34cc8ee4", "tool_family": "update_ticket"}, "id": "v3b-train-001", "input": "Resolve support request T-34cc8ee4 using the available tools.", "split": "train", "version": "v3b"}
+{"expected": {"ticket": "T-70430e9a", "tool_family": "search_kb"}, "id": "v3b-train-002", "input": "Resolve support request T-70430e9a using the available tools.", "split": "train", "version": "v3b"}
+{"expected": {"ticket": "T-5d043a29", "tool_family": "create_escalation"}, "id": "v3b-train-003", "input": "Resolve support request T-5d043a29 using the available tools.", "split": "train", "version": "v3b"}
+{"expected": {"ticket": "T-515ab1f5", "tool_family": "lookup_ticket"}, "id": "v3b-train-004", "input": "Resolve support request T-515ab1f5 using the available tools.", "split": "train", "version": "v3b"}
+{"expected": {"ticket": "T-82b8f728", "tool_family": "update_ticket"}, "id": "v3b-train-005", "input": "Resolve support request T-82b8f728 using the available tools.", "split": "train", "version": "v3b"}
+{"expected": {"ticket": "T-4b6c462f", "tool_family": "search_kb"}, "id": "v3b-train-006", "input": "Resolve support request T-4b6c462f using the available tools.", "split": "train", "version": "v3b"}
+{"expected": {"ticket": "T-a7860f15", "tool_family": "create_escalation"}, "id": "v3b-train-007", "input": "Resolve support request T-a7860f15 using the available tools.", "split": "train", "version": "v3b"}
+{"expected": {"ticket": "T-b13fa304", "tool_family": "lookup_ticket"}, "id": "v3b-train-008", "input": "Resolve support request T-b13fa304 using the available tools.", "split": "train", "version": "v3b"}
+{"expected": {"ticket": "T-d47c63ba", "tool_family": "update_ticket"}, "id": "v3b-train-009", "input": "Resolve support request T-d47c63ba using the available tools.", "split": "train", "version": "v3b"}
+{"expected": {"ticket": "T-90dde8c6", "tool_family": "search_kb"}, "id": "v3b-train-010", "input": "Resolve support request T-90dde8c6 using the available tools.", "split": "train", "version": "v3b"}
+{"expected": {"ticket": "T-13816a2b", "tool_family": "create_escalation"}, "id": "v3b-train-011", "input": "Resolve support request T-13816a2b using the available tools.", "split": "train", "version": "v3b"}
+{"expected": {"ticket": "T-716f78f6", "tool_family": "lookup_ticket"}, "id": "v3b-train-012", "input": "Resolve support request T-716f78f6 using the available tools.", "split": "train", "version": "v3b"}
+{"expected": {"ticket": "T-9b736de6", "tool_family": "update_ticket"}, "id": "v3b-train-013", "input": "Resolve support request T-9b736de6 using the available tools.", "split": "train", "version": "v3b"}
+{"expected": {"ticket": "T-2aeb819c", "tool_family": "search_kb"}, "id": "v3b-train-014", "input": "Resolve support request T-2aeb819c using the available tools.", "split": "train", "version": "v3b"}
+{"expected": {"ticket": "T-0db487e7", "tool_family": "create_escalation"}, "id": "v3b-train-015", "input": "Resolve support request T-0db487e7 using the available tools.", "split": "train", "version": "v3b"}

@@ -1,0 +1,18 @@
+{
+  "status": "DRAFT_NOT_SUBMITTED",
+  "track": "Track 3 — Agentic Fine-tuning",
+  "team_email": "p.szutt@neisse.ai",
+  "project": "SchemaShift",
+  "abstract": "SchemaShift is a proposed closed-loop continual-recovery experiment for tool agents. A deterministic four-tool environment introduces sequential API drift across v1, v2, v3a, and v3b. The agent is evaluated before drift, after observed failures, and after corrective training. AuditKIT gates promotion on recovery and retention, while sealed final splits remain untouched. This draft contains the benchmark contract but no performance claim: the required AgentTune run, AuditKIT evaluation, and public Hugging Face artifacts are not yet verified.",
+  "github_repo": "https://github.com/Schultzenator/lexsi-schemashift-2026",
+  "hf_model_collection": null,
+  "hf_dataset_collection": null,
+  "writeup": "https://github.com/Schultzenator/lexsi-schemashift-2026",
+  "final_submit": false,
+  "blockers": [
+    "Hugging Face write session is not authenticated.",
+    "AgentTune and AuditKIT are cloned for provenance but not executable in the active environment.",
+    "No measured before/after metrics exist; no headline claim is made."
+  ]
+}
+
