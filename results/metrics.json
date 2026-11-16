@@ -1,0 +1,14 @@
+{
+  "status": "unmeasured",
+  "reason": "No model or sponsor-tool run was completed in the active zero-spend environment.",
+  "metrics": {
+    "task_success": null,
+    "schema_valid_tool_call_rate": null,
+    "correct_tool_selection_rate": null,
+    "calls_per_success": null,
+    "schema_drift_recovery_delta": null,
+    "prior_version_retention": null
+  },
+  "headline_claim": null
+}
+

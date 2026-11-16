@@ -1,0 +1,14 @@
+{
+  "agenttune": {
+    "repository": "https://github.com/Lexsi-Labs/AgentTune",
+    "commit": "8918cc359d51aad35bb05f457d11cc4e5766d7eb",
+    "execution_status": "not_run_active_environment_missing_dependencies"
+  },
+  "auditkit": {
+    "repository": "https://github.com/Lexsi-Labs/AuditKIT",
+    "commit": "9d4e21bac240e8108a22c2c137d179d6070868d5",
+    "execution_status": "not_run_active_environment_missing_dependencies"
+  },
+  "base_model": "https://huggingface.co/CohereLabs/tiny-aya-base"
+}
+
