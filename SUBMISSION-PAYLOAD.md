@@ -7,7 +7,7 @@ model and dataset collection fields are intentionally empty until owner-controll
 Hugging Face authentication and actual training/evaluation are available. No metric
 is claimed.
 
-Required continuation before submission: run genuine AgentTune and AuditKIT, publish
+Required continuation before submission: run genuine AgentTune training and model-backed AuditKIT, publish
 logged-out HF artifacts, add measured sealed-test metrics, and obtain independent
 DeepSeek Flash v4.1 `PASS`.
 

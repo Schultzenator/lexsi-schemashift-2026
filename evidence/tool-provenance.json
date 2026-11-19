@@ -2,12 +2,12 @@
   "agenttune": {
     "repository": "https://github.com/Lexsi-Labs/AgentTune",
     "commit": "8918cc359d51aad35bb05f457d11cc4e5766d7eb",
-    "execution_status": "not_run_active_environment_missing_dependencies"
+    "execution_status": "source_import_smoke_passed; quickstart_blocked_missing_psutil; no_training"
   },
   "auditkit": {
     "repository": "https://github.com/Lexsi-Labs/AuditKIT",
     "commit": "9d4e21bac240e8108a22c2c137d179d6070868d5",
-    "execution_status": "not_run_active_environment_missing_dependencies"
+    "execution_status": "track3_parser_scorer_smoke_passed_directly; no_model_scoring"
   },
   "base_model": "https://huggingface.co/CohereLabs/tiny-aya-base"
 }

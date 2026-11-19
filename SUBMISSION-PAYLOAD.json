@@ -11,7 +11,8 @@
   "final_submit": false,
   "blockers": [
     "Hugging Face write session is not authenticated.",
-    "AgentTune and AuditKIT are cloned for provenance but not executable in the active environment.",
+    "AgentTune source import smoke passed, but its no-model quickstart is blocked by missing psutil; no training was run.",
+    "AuditKIT Track-3 parser/scorer smoke passed, but no model-backed score was run.",
     "No measured before/after metrics exist; no headline claim is made."
   ]
 }

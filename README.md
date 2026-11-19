@@ -13,11 +13,12 @@ submission invalid.
 
 ## Experiment contract
 
-The benchmark generator creates four tool schemas (`v1`, `v2`, `v3a`, `v3b`) and
-disjoint train/dev/sealed-final splits. Drift families are parameter rename/type and
-required-field changes, tool split/merge, and ordering/precondition changes. Final
-splits are hashed before any training and are never used for corrective-example
-mining.
+The benchmark generator creates four executable tool schemas (`v1`, `v2`, `v3a`,
+`v3b`) and disjoint train/dev/sealed-final splits. Drift families are parameter
+rename/type and required-field changes, a real `update_ticket` to
+`patch_ticket`/`close_ticket` split, and ordering/approval preconditions. Each row
+contains the versioned contract and typed expected arguments. Final splits are
+hashed before any training and are never used for corrective-example mining.
 
 Run the generator with:
 
@@ -27,8 +28,9 @@ python3 benchmark/generate.py --out benchmark/generated
 
 The planned measured outputs are task success, schema-valid call rate, correct-tool
 selection, calls per successful task, recovery delta, and prior-version retention.
-They remain `unmeasured` until genuine AgentTune training and AuditKIT scoring are
-executed.
+They remain `unmeasured` until genuine AgentTune training and model-backed AuditKIT
+scoring are executed. The pinned AuditKIT Track-3 parser/scorer smoke path does
+run locally; it is not a model result.
 
 ## Provenance
 
